@@ -1,0 +1,53 @@
+@import url(./all.min.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Righteous');
+
+.galeria {
+    margin-top: 45px;
+}
+
+.galeria .titulo-grupo {
+    font-size: 30px;
+}
+
+.img-galeria {
+    object-fit: cover;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.img-galeria:hover {
+    transform: scale(1.02);
+}
+
+.img-galeria-grande {
+    height: 300px;
+}
+
+.img-galeria-chica {
+    height: 150px;
+}
+
+.galeria .contenedor {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 30px;
+}
+
+.modal {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    display: none;
+}
+
+.contenido-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Reto Galeria</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/galeria.css">
+
+</head>
+
+<header class="header_principal">
+
+    <nav class="nav_principal">
+
+        <div class="contenedor contenedor_flex">
+
+            <span class="icon_menu" id="btnMenu"><i class="fa-solid fa-bars"></i></span>
+
+            <div class="contenedor_logo">
+                <img class="logo_1" src="./img/logo.png" alt="logo resto">
+                <h1 class="logo"><a href="index.html" class="logo_link">Mi Resto Bar</a></h1>
+            </div>
+
+            <ul class="menu" id="menu">
+                <li class="menu_item"><a href="index.html" class="menu_link"><i class="fa-sharp fa-solid fa-house-user"> </i> Inicio </a></li>
+                <li class="menu_item"><a href="nosotros.html" class="menu_link"><i class="fa-solid fa-users"></i>Nosotros</a></li>
+                <li class="menu_item"><a href="galeria.html" class="menu_link"> <i class="fa-regular fa-image"></i> Galeria</a></li>
+                <li class="menu_item"><a href="contacto.html" class="menu_link"><i class="fa-regular fa-envelope"></i> Contacto </a></li>
+            </ul>
+
+            <div class="social_icon">
+                <a href="" class="social_icon_facebook"><span class="icon"><i class="fa-brands fa-facebook"></i></span></a>
+                <a href="" class="social_icon_instagram"><span class="icon"><i class="fa-brands fa-square-instagram"></i></span></a>
+                <a href="" class="social_icon_twiter"><span class="icon"><i class="fa-brands fa-square-twitter"></i> </span></a>
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+    <section class="banner">
+    <img src="./img/bannergaleria.jpg" alt="" class="img_banner">
+    <div class="contenido_banner h2_columna">Si no lo ves , puedes preguntar !!!!</div>
+</section>
+
+    <body>
+
+        <div class="modal" id="modal">
+            <div class="contenido-modal">
+                <img src="./img/bannergaleria.jpg" alt="" class="img-modal" id="img-modal">
+            </div>
+            <div class="modal-btn" id="modal-btn">X</div>
+        </div>
+
+
+        <main class="main">
+
+            <section class="grupo galeria">
+                <h2 class="titulo-grupo">Nuestra Galería</h2>
+                <div class="contenedor contenedor-flex">
+
+                    <div class="columna columna-50-25">
+                        <img src="./img/img1.jpg" alt="" class="img-galeria img-galeria-grande">
+                        <img src="/img/img2.jpg" alt="" class="img-galeria img-galeria-chica">
+                    </div>
+
+                    <div class="columna columna-50-25">
+                        <img src="/img/img3.jpg" alt="" class="img-galeria img-galeria-chica">
+                        <img src="/img/img4.jpg" alt="" class="img-galeria img-galeria-grande">
+                    </div>
+
+                    <div class="columna columna-50-25">
+                        <img src="/img/img5.jpg" alt="" class="img-galeria img-galeria-grande">
+                        <img src="/img/img6.jpg" alt="" class="img-galeria img-galeria-chica">
+                    </div>
+
+                    <div class="columna columna-50-25">
+                        <img src="/img/img7.jpg" alt="" class="img-galeria img-galeria-chica">
+                        <img src="/img/img8.jpg" alt="" class="img-galeria img-galeria-grande">
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+
+
+
+        <script src="js/menu.js"></script>
+        <script src="js/modal.js"></script>
+    </body></html>

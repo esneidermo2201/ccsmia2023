@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Resto Contacto</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+
+<header class="header_principal">
+    <nav class="nav_principal">
+        <div class="contenedor contenedor_flex">
+            <span class="icon_menu" id="btnMenu"><i class="fa-solid fa-bars"></i></span>
+
+            <div class="contenedor_logo">
+                <img class="logo_1" src="./img/logo.png" alt="logo resto">
+                <h1 class="logo"><a href="index.html" class="logo_link">Mi Resto Bar</a></h1>
+            </div>
+
+            <ul class="menu" id="menu">
+                <li class="menu_item"><a href="index.html" class="menu_link"><i class="fa-sharp fa-solid fa-house-user"> </i> Inicio </a></li>
+                <li class="menu_item"><a href="nosotros.html" class="menu_link"><i class="fa-solid fa-users"></i>Nosotros</a></li>
+                <li class="menu_item"><a href="galeria.html" class="menu_link"> <i class="fa-regular fa-image"></i> Galeria</a></li>
+                <li class="menu_item"><a href="" class="menu_link"><i class="fa-regular fa-envelope"></i> Contacto </a></li>
+            </ul>
+
+            <div class="social_icon">
+                <a href="" class="social_icon_facebook"><span class="icon"><i class="fa-brands fa-facebook"></i></span></a>
+                <a href="" class="social_icon_instagram"><span class="icon"><i class="fa-brands fa-square-instagram"></i></span></a>
+                <a href="" class="social_icon_twiter"><span class="icon"><i class="fa-brands fa-square-twitter"></i> </span></a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="banner">
+    <img src="./img/bannercontacto.jpg" alt="" class="img_banner">
+    <div class="contenido_banner h2_columna">Cuentame de tu Experiencia !!!!</div>
+</section>
+
+<main class="main">
+
+    <section class="grupo contacto">
+        <h2 class="titulo-grupo">Contáctanos</h2>
+        <div class="contenedor contenedor_flex">
+            <div class="info-contacto columna columna-50">
+                <h3 class="titulo-columna">Información de Contacto</h3>
+
+                <p class="desc-columna">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque culpa consectetur beatae unde neque odit ipsam laudantium fuga labore tenetur quae, tempore doloribus quis necessitatibus.</p>
+
+                <p class="desc-columna"><span class="icon-phone"></span>
+                    <i class="icon-phone fas fa-phone-square"></i> Teléfono: 4736-3726
+                </p>
+
+                <p class="desc-columna"><span class="icon-phone"></span>
+                    <i class="icon-phone fab fa-whatsapp-square"></i>Celular: +54901145673456
+                </p>
+
+                <p class="desc-columna"><span class="icon-location"></span><i class="icon-location fas fa-map-marker-alt"></i>Roca 3523, Florida</p>
+
+                <p class="desc-columna"><span class="icon-mail"></span>
+                    <i class="icon-mail fas fa-envelope-square"></i>otromail@gmail.com
+                </p>
+
+
+                <div class="social-icon">
+
+                    <a href="" class="social_icon_link"><span class="icon-facebook"><i class="fab fa-facebook-square"></i></span></a>
+
+                    <a href="" class="social_icon_link"><span class="icon-twitter"><i class="fab fa-twitter-square"></i></span></a>
+
+                    <a href="" class="social_icon_link"><span class="icon-instagram"><i class="fab fa-instagram-square"></i></span></a>
+
+                </div>
+            </div>
+            <div class="formulario columna columna-50">
+                <form action="enviar.php" method="post">
+                    <label for="" class="formulario-label">Nombre:</label>
+                    <input type="text" class="formulario-input-txt" name="nombre">
+                    <label for="" class="formulario-label">Mail:</label>
+                    <input type="text" class="formulario-input-txt" name="mail">
+                    <label for="" class="formulario-label">Teléfono:</label>
+                    <input type="number" class="formulario-input-txt" name="telefono">
+                    <label for="" class="formulario-label">Mensaje:</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario-textarea"></textarea>
+                    <input type="submit" name="submit" class="btn formulario-btn" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="./js/menu.js"></script>
+
+<body>
+
+</body></html>
