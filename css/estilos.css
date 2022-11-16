@@ -312,7 +312,7 @@ header img {
 .footer_principal [class*="icon_"]:before {
     position: relative;
     top: 3px;
-    “o se puede cambiar por 1px” right: 5px;
+    right: 5px;
 }
 
 
@@ -334,6 +334,9 @@ header img {
 
     .img_banner {
         height: 700px;
+    }
+    .destacados25 {
+        width: 100%;
     }
 
     .contenido_banner {
@@ -362,14 +365,12 @@ header img {
 
     .especiales_hoy .columna {
         border: 5px solid #a4a4a4;
-        padding: 5px;
+        padding: 2px;
     }
 
     .especiales_hoy_img {
-        height: 200px;
         max-width: 600px;
         object-fit: cover;
-        padding: 5px;
     }
 
     .especiales_hoy {
